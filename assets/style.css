@@ -1,0 +1,84 @@
+* {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	line-height: 1.8;
+	text-align: center;
+	color: #545454;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.avatar-container {
+	margin-top: 2em;
+}
+
+.avatar {
+	border-radius: 50%;
+	height: 8em;
+	width: 8em;
+	-webkit-filter: grayscale(0.4); /* update to change color of picture */
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.75rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+.blurb {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	height: 1.25rem;
+	font-size: 1.2rem;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin: 0 0.5rem 0 0.5rem;
+	opacity: 0.7;
+}
+
+a:hover {
+	opacity: 0.9;
+}
+
+#startup {
+	height: 19px;
+	vertical-align: bottom;
+	margin-bottom: 0.45rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.avatar-container {
+		margin-top: 4rem;
+	}
+
+	.avatar {
+		height: 10rem;
+		width: 10rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+	}
+}
