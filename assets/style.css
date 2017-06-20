@@ -17,8 +17,8 @@
 
 .avatar {
 	border-radius: 50%;
-	height: 8em;
-	width: 8em;
+	height: 10em;
+	width: 10em;
 	-webkit-filter: grayscale(0.4); /* update to change color of picture */
 }
 
